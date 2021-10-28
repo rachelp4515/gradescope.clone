@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel='stylesheet' href='styles.css'>
+    <title>Gradescope clone</title>
+</head>
+<body class='font-weight-light'>
+    <!--nav-->
+<div class="wrapper d-flex ">
+
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <div>
+            <div class="sidebar-header">
+            <h4 style='color:#1b807c;' class='font-weight-light'> <i class="fas fa-signal fa-xsm"></i> gradescope</h4>
+            </div>
+            <h3>Your classes</h3>
+            <p>Welcome to Gradescope! Click on one of your courses to the right, or on the Account menu below.</p>
+           <div class='account'> Account </div> 
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg border-right ">
+        <div class="container-fluid">
+            <button type="button" id="sidebarCollapse" class="btn btn-info ml-3 my-3 bg-white border-0 ">
+                <i class="fas fa-align-justify fa-lg"></i>
+            </button>
+            
+        </div>
+    </nav>
+   
+
+    <!--body-->
+    <div class='m-4 d-flex flex-column' style='width:max-content'>
+        <h4 class='font-weight-light'> Your Courses </h4>
+        <h5 class='mt-3 mx-3'> Fall 2021 </h5>
+        <div id="classlist" class='d-flex flex-wrap'>
+            
+                <div class="card m-2 p-4 border-white" style="width: 370px; height: 180px; background-color:#f0f2f5;"> 
+                    <h4 class='card-title font-weight-light'> 1710</h4>
+                        <p text-sm> web foundations </p>
+                    <div class='assignments'> 0 assignments </div>
+                </div>
+
+                <div class="card m-2 p-4 border-white" style="width: 370px; height: 180px; background-color:#f0f2f5;"> 
+                    <h4 class='card-title font-weight-light'> 1111 </h4>
+                        <p>introduction to programming</p>
+                    <div class='assignments'> 0 assignments </div>
+                </div>
+
+                <div class="card m-2 p-4 border-white" style="width: 370px; height: 180px; background-color:#f0f2f5;"> 
+                    <h4 class='card-title font-weight-light'> SPD </h4>
+                        <p> Agile Developement </p>
+                    <div class='assignments'> 0 assignments </div>
+                </div>
+
+                <div class="card m-2 p-4 border-white"style="width: 370px; height: 180px; background-color:#f0f2f5;">
+                    <h4 class='card-title font-weight-light'> Intensive </h4>
+                        <p> fall intensive 2021 </p>
+                        <div class='assignments'> 0 assignments </div>
+                </div>
+                <div class='card m-2 p-4 font-weight-light d-flex flex-column justify-content-center' style='border: 2px dashed #1b807c; width: 370px; height: 180px; color:#1b807c;'>
+                    <h3 class='card-title' > + Add a Course </h3>
+                </div>
+        </div>
+    </div>
+</div>     
+    <!--footer-->
+    <footer></footer>
+    <script src='script.js'></script>
+    <script src="https://kit.fontawesome.com/d70a4d3a14.js" crossorigin="anonymous"></script>
+</body>
+</html>
